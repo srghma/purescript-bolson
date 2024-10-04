@@ -24,7 +24,8 @@ package:
 workspace:
   extraPackages:
     hyrule:
-      git: https://github.com/mikesol/purescript-hyrule.git
-      ref: main
+      # git: https://github.com/mikesol/purescript-hyrule.git
+      # ref: main
+      path: /home/srghma/projects/purescript-hyrule # REMOVE-LINE-PRE-COMMIT
   packageSet:
     registry: 57.1.0
